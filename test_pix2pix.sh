@@ -1,0 +1,1 @@
+python test.py --dataroot /home/user9/USenhance2023/datasets/ultrasound/valid/ --norm instance --name pix2pix_ultrasound_2000 --model pix2pix --no_dropout --input_nc 1 --output_nc 1

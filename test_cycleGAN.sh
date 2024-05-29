@@ -1,0 +1,1 @@
+python test.py --dataroot /home/user9/USenhance2023/datasets/ultrasound/valid/low_quality --name cyclegan_ultrasound_800 --model test --no_dropout --input_nc 1 --output_nc 1

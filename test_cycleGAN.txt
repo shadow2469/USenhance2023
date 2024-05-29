@@ -1,0 +1,123 @@
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: /home/user9/USenhance2023/datasets/ultrasound/valid/low_quality	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 1                             	[default: 3]
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: cyclegan_ultrasound_800       	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 1                             	[default: 3]
+                    phase: test                          
+                 postname: breast                        
+               preprocess: resize_and_crop               
+              results_dir: ./results/                    
+           serial_batches: False                         
+                   suffix:                               
+            target_gt_dir: high_quality                  
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from ./checkpoints/cyclegan_ultrasound_800/latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.366 M
+-----------------------------------------------
+creating web directory ./results/cyclegan_ultrasound_800/test_latest
+processing (0000)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0003.png']
+processing (0005)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0032.png']
+processing (0010)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0056.png']
+processing (0015)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0074.png']
+processing (0020)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0101.png']
+processing (0025)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0126.png']
+processing (0030)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0155.png']
+processing (0035)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0178.png']
+processing (0040)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0219.png']
+processing (0045)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0237.png']
+processing (0050)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0260.png']
+processing (0055)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0271.png']
+processing (0060)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0293.png']
+processing (0065)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0308.png']
+processing (0070)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0340.png']
+processing (0075)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0373.png']
+processing (0080)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0386.png']
+processing (0085)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0401.png']
+processing (0090)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0433.png']
+processing (0095)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0450.png']
+processing (0100)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0459.png']
+processing (0105)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0484.png']
+processing (0110)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0512.png']
+processing (0115)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0540.png']
+processing (0120)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0594.png']
+processing (0125)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0609.png']
+processing (0130)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0628.png']
+processing (0135)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0644.png']
+processing (0140)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0659.png']
+processing (0145)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0682.png']
+processing (0150)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0704.png']
+processing (0155)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0737.png']
+processing (0160)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0761.png']
+processing (0165)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0780.png']
+processing (0170)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0799.png']
+processing (0175)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0832.png']
+processing (0180)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0865.png']
+processing (0185)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0881.png']
+processing (0190)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0902.png']
+processing (0195)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0916.png']
+processing (0200)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0945.png']
+processing (0205)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/0988.png']
+processing (0210)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1010.png']
+processing (0215)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1025.png']
+processing (0220)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1044.png']
+processing (0225)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1083.png']
+processing (0230)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1122.png']
+processing (0235)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1150.png']
+processing (0240)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1166.png']
+processing (0245)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1181.png']
+processing (0250)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1193.png']
+processing (0255)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1207.png']
+processing (0260)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1229.png']
+processing (0265)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1247.png']
+processing (0270)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1292.png']
+processing (0275)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1310.png']
+processing (0280)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1317.png']
+processing (0285)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1339.png']
+processing (0290)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1354.png']
+processing (0295)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1399.png']
+processing (0300)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1449.png']
+processing (0305)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1459.png']
+processing (0310)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1473.png']
+processing (0315)-th image... ['/home/user9/USenhance2023/datasets/ultrasound/valid/low_quality/1493.png']
+evaluating in the images size of (256, 256)
+/home/user9/USenhance2023/model_eval/evaluate.py:313: FutureWarning: `multichannel` is a deprecated argument name for `structural_similarity`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  ssim = structural_similarity(image, gt_image, data_range=255, multichannel=True)
+Number for process ssim and psnr:317
+ssim 0.2842808026221745
+psnr 14.81747217589953

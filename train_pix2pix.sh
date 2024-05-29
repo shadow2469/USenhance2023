@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DIVIDE=0,1,2,3 python train.py --dataroot datasets/ultrasound/train --name pix2pix_ultrasound_2000 --model pix2pix --input_nc 1 --output_nc 1 --direction AtoB --dataset_mode Ultrasound --norm instance --batch_size 8 --lr_policy linear --gpu_ids 0,1,2,3 --display_port 9006 --n_epochs 1500 --n_epochs_decay 500
