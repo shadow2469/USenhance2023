@@ -23,7 +23,6 @@ Please note that root directory is the project root directory.
 ```
 bash train_cycleGAN.sh
 bash train_pix2pix.sh
-
 ```
 
 ## valid
@@ -31,5 +30,4 @@ bash train_pix2pix.sh
 ```
 bash valid_cycleGAN.sh
 bash valid_pix2pix.sh
-
 ```
